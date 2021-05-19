@@ -13,6 +13,21 @@
 		D4BAC56B2654FA0500CF6792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAC5692654FA0500CF6792 /* Main.storyboard */; };
 		D4BAC56D2654FA0700CF6792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BAC56C2654FA0700CF6792 /* Assets.xcassets */; };
 		D4BAC5702654FA0700CF6792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAC56E2654FA0700CF6792 /* LaunchScreen.storyboard */; };
+		D4BAC5C32655022000CF6792 /* BGGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC57E2655021F00CF6792 /* BGGradientView.swift */; };
+		D4BAC5C42655022000CF6792 /* BGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC57F2655021F00CF6792 /* BGImageView.swift */; };
+		D4BAC5C52655022000CF6792 /* BGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5802655021F00CF6792 /* BGView.swift */; };
+		D4BAC5C62655022000CF6792 /* BGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5812655021F00CF6792 /* BGTextField.swift */; };
+		D4BAC5CB2655022000CF6792 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5872655021F00CF6792 /* UIViewController+Extensions.swift */; };
+		D4BAC5CC2655022000CF6792 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5882655021F00CF6792 /* UIView+Extensions.swift */; };
+		D4BAC5D72655022000CF6792 /* UINavigation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5932655022000CF6792 /* UINavigation+Extensions.swift */; };
+		D4BAC5DF2655022000CF6792 /* BGLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC59B2655022000CF6792 /* BGLabel.swift */; };
+		D4BAC5E02655022000CF6792 /* BGAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC59C2655022000CF6792 /* BGAlertPresenter.swift */; };
+		D4BAC5E12655022000CF6792 /* BGNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC59D2655022000CF6792 /* BGNetworkHelper.swift */; };
+		D4BAC5E32655022000CF6792 /* BGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC59F2655022000CF6792 /* BGButton.swift */; };
+		D4BAC5E52655022000CF6792 /* BGLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5A22655022000CF6792 /* BGLoading.swift */; };
+		D4BAC5FB2655022000CF6792 /* BGCollectionViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5BE2655022000CF6792 /* BGCollectionViewTools.swift */; };
+		D4BAC5FD2655022000CF6792 /* BGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5C02655022000CF6792 /* BGConstants.swift */; };
+		D4BAC5FE2655022000CF6792 /* BGEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5C12655022000CF6792 /* BGEndpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		D4BAC56C2654FA0700CF6792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4BAC56F2654FA0700CF6792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4BAC5712654FA0700CF6792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BAC57E2655021F00CF6792 /* BGGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGGradientView.swift; sourceTree = "<group>"; };
+		D4BAC57F2655021F00CF6792 /* BGImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGImageView.swift; sourceTree = "<group>"; };
+		D4BAC5802655021F00CF6792 /* BGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGView.swift; sourceTree = "<group>"; };
+		D4BAC5812655021F00CF6792 /* BGTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGTextField.swift; sourceTree = "<group>"; };
+		D4BAC5872655021F00CF6792 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D4BAC5882655021F00CF6792 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D4BAC5932655022000CF6792 /* UINavigation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigation+Extensions.swift"; sourceTree = "<group>"; };
+		D4BAC59B2655022000CF6792 /* BGLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGLabel.swift; sourceTree = "<group>"; };
+		D4BAC59C2655022000CF6792 /* BGAlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGAlertPresenter.swift; sourceTree = "<group>"; };
+		D4BAC59D2655022000CF6792 /* BGNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGNetworkHelper.swift; sourceTree = "<group>"; };
+		D4BAC59F2655022000CF6792 /* BGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGButton.swift; sourceTree = "<group>"; };
+		D4BAC5A22655022000CF6792 /* BGLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGLoading.swift; sourceTree = "<group>"; };
+		D4BAC5BE2655022000CF6792 /* BGCollectionViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGCollectionViewTools.swift; sourceTree = "<group>"; };
+		D4BAC5C02655022000CF6792 /* BGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGConstants.swift; sourceTree = "<group>"; };
+		D4BAC5C12655022000CF6792 /* BGEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGEndpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +88,77 @@
 			children = (
 				D4BAC5632654FA0500CF6792 /* AppDelegate.swift */,
 				D4BAC5652654FA0500CF6792 /* SceneDelegate.swift */,
-				D4BAC5672654FA0500CF6792 /* ViewController.swift */,
-				D4BAC5692654FA0500CF6792 /* Main.storyboard */,
+				D4BAC57B2655021F00CF6792 /* Supporting Files */,
+				D4BAC57A2655010B00CF6792 /* View */,
+				D4BAC579265500DF00CF6792 /* Storyboard */,
 				D4BAC56C2654FA0700CF6792 /* Assets.xcassets */,
-				D4BAC56E2654FA0700CF6792 /* LaunchScreen.storyboard */,
 				D4BAC5712654FA0700CF6792 /* Info.plist */,
 			);
 			path = AppsSquare;
+			sourceTree = "<group>";
+		};
+		D4BAC579265500DF00CF6792 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC5692654FA0500CF6792 /* Main.storyboard */,
+				D4BAC56E2654FA0700CF6792 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D4BAC57A2655010B00CF6792 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC5672654FA0500CF6792 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4BAC57B2655021F00CF6792 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC57D2655021F00CF6792 /* BGKit */,
+				D4BAC5A12655022000CF6792 /* Utilities */,
+				D4BAC5C02655022000CF6792 /* BGConstants.swift */,
+				D4BAC5C12655022000CF6792 /* BGEndpoints.swift */,
+			);
+			name = "Supporting Files";
+			path = "AppsSquare/Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		D4BAC57D2655021F00CF6792 /* BGKit */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC5BE2655022000CF6792 /* BGCollectionViewTools.swift */,
+				D4BAC5A22655022000CF6792 /* BGLoading.swift */,
+				D4BAC57E2655021F00CF6792 /* BGGradientView.swift */,
+				D4BAC57F2655021F00CF6792 /* BGImageView.swift */,
+				D4BAC5802655021F00CF6792 /* BGView.swift */,
+				D4BAC5812655021F00CF6792 /* BGTextField.swift */,
+				D4BAC59B2655022000CF6792 /* BGLabel.swift */,
+				D4BAC59C2655022000CF6792 /* BGAlertPresenter.swift */,
+				D4BAC59F2655022000CF6792 /* BGButton.swift */,
+			);
+			path = BGKit;
+			sourceTree = "<group>";
+		};
+		D4BAC5822655021F00CF6792 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC5872655021F00CF6792 /* UIViewController+Extensions.swift */,
+				D4BAC5882655021F00CF6792 /* UIView+Extensions.swift */,
+				D4BAC5932655022000CF6792 /* UINavigation+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D4BAC5A12655022000CF6792 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC5822655021F00CF6792 /* Extensions */,
+				D4BAC59D2655022000CF6792 /* BGNetworkHelper.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +231,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BAC5CC2655022000CF6792 /* UIView+Extensions.swift in Sources */,
+				D4BAC5E32655022000CF6792 /* BGButton.swift in Sources */,
 				D4BAC5682654FA0500CF6792 /* ViewController.swift in Sources */,
+				D4BAC5D72655022000CF6792 /* UINavigation+Extensions.swift in Sources */,
+				D4BAC5FB2655022000CF6792 /* BGCollectionViewTools.swift in Sources */,
+				D4BAC5E02655022000CF6792 /* BGAlertPresenter.swift in Sources */,
+				D4BAC5CB2655022000CF6792 /* UIViewController+Extensions.swift in Sources */,
+				D4BAC5E52655022000CF6792 /* BGLoading.swift in Sources */,
+				D4BAC5DF2655022000CF6792 /* BGLabel.swift in Sources */,
 				D4BAC5642654FA0500CF6792 /* AppDelegate.swift in Sources */,
 				D4BAC5662654FA0500CF6792 /* SceneDelegate.swift in Sources */,
+				D4BAC5FD2655022000CF6792 /* BGConstants.swift in Sources */,
+				D4BAC5C42655022000CF6792 /* BGImageView.swift in Sources */,
+				D4BAC5FE2655022000CF6792 /* BGEndpoints.swift in Sources */,
+				D4BAC5C32655022000CF6792 /* BGGradientView.swift in Sources */,
+				D4BAC5C62655022000CF6792 /* BGTextField.swift in Sources */,
+				D4BAC5E12655022000CF6792 /* BGNetworkHelper.swift in Sources */,
+				D4BAC5C52655022000CF6792 /* BGView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
