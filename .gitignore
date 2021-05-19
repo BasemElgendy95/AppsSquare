@@ -1,0 +1,6 @@
+
+Pods/
+*.xcworkspacedata
+
+Podfile.lock
+AppsSquare.xcodeproj/project.pbxproj
