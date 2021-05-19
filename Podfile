@@ -7,4 +7,9 @@ target 'AppsSquare' do
 
   # Pods for AppsSquare
 
+  pod 'SDWebImage'
+  pod 'Alamofire' , '~> 4.9.1'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftyJSON'
+	
 end
