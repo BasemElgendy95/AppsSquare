@@ -6,8 +6,8 @@
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 ## Demo
-![](details.jpg)
 ![](home.jpg)
+![](details.jpg)
 ![](login.jpg)
 
 
