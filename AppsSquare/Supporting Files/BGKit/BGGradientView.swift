@@ -9,9 +9,11 @@
 import UIKit
 @IBDesignable
 class BGGradientView: UIView {
-    
-        @IBInspectable var startColor:   UIColor = .black { didSet { updateColors() }}
-        @IBInspectable var endColor:     UIColor = .white { didSet { updateColors() }}
+        
+        @IBInspectable var startColor :   UIColor = .black { didSet { updateColors() }}
+        @IBInspectable var midColor :   UIColor = .black { didSet { updateColors() }}
+        @IBInspectable var beforEnfColor :   UIColor = .black { didSet { updateColors() }}
+        @IBInspectable var endColor :   UIColor = .black { didSet { updateColors() }}
         @IBInspectable var startLocation: Double =   0.05 { didSet { updateLocations() }}
         @IBInspectable var endLocation:   Double =   0.95 { didSet { updateLocations() }}
         @IBInspectable var horizontalMode:  Bool =  false { didSet { updatePoints() }}
@@ -34,13 +36,13 @@ class BGGradientView: UIView {
             gradientLayer.locations = [startLocation as NSNumber, endLocation as NSNumber]
         }
         func updateColors() {
-            gradientLayer.colors    = [startColor.cgColor, endColor.cgColor]
+            gradientLayer.colors    = [startColor.cgColor, midColor.cgColor , beforEnfColor.cgColor , endColor.cgColor]
         }
         
         override func layoutSubviews() {
             super.layoutSubviews()
             updatePoints()
-            updateLocations()
+//            updateLocations()
             updateColors()
         }
     }
