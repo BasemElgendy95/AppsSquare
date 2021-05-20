@@ -16,7 +16,7 @@ class BGAlertPresenter{
            var alertTitle:String?
            var alertMessage:String?
            if message == "" {
-               alertMessage = "error".locale
+               alertMessage = "error"
            }
            if title == "" {
                alertTitle = message
@@ -48,7 +48,7 @@ class BGAlertPresenter{
                })
                alert.addAction(action)
            }
-           let cancel = UIAlertAction(title: "cancel".locale, style: .destructive, handler: { ( action ) in
+           let cancel = UIAlertAction(title: "cancel", style: .destructive, handler: { ( action ) in
            })
            alert.addAction(cancel)
            alert.popoverPresentationController?.sourceView = selectedBtn
@@ -69,7 +69,7 @@ class BGAlertPresenter{
                  completion(textView.text)
              })
              alert.addAction(action)
-            let cancel = UIAlertAction(title: "cancel".locale, style: .destructive, handler: { ( action ) in
+            let cancel = UIAlertAction(title: "cancel", style: .destructive, handler: { ( action ) in
             })
             alert.setValue(addTextViewToViewController(), forKey: "contentViewController")
             alert.addAction(cancel)
