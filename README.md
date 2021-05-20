@@ -21,7 +21,7 @@
 #### CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install `NeededLibraries`:
 
-just run this comand in the file root
+just run this terminal command  in the file root
 
 ```terminal
 pod install
