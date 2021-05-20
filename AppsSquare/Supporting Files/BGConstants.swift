@@ -18,16 +18,9 @@ class BGConstants: NSObject {
     static var created:Int {return 201}
     static var unauthenticated:Int {return 401}
     static var unprocessableEntity : Int {return 422}
-    static var notAcceptable : Int {return 406}
     // MARK: - APIs Constants
     
-    static var cometAppId:String {return "29227e14202eb08"}
-    static var cometAppKey:String {return "e0c227ef24ca925a6117ccb440d3f7c14bac6f74"}
-    static var cometRegion:String {return "eu"}
-    static var baseURL:String {return "https://telemed.jazanu.edu.sa/"}
-    static var apiURL:String {return "\(baseURL)api/" + acceptedVersion}
-    static var imagesURL:String {return baseURL + "storage/"}
-    static var acceptedVersion:String {return "v1.0"}
+    static var apiURL:String {return "https://cut-backend-2.appssquare.com/api"}
     
 
 }
