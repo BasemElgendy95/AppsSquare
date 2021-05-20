@@ -11,5 +11,5 @@ target 'AppsSquare' do
   pod 'Alamofire' , '~> 4.9.1'
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyJSON'
-	
+  pod 'Cosmos'
 end
