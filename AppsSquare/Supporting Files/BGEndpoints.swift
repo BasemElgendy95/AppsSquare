@@ -10,6 +10,6 @@ import UIKit
 
 class BGEndpoints: NSObject {
     
-    static var terms:String {return BGConstants.apiURL + "/info/terms"}
+    static var login:String {return BGConstants.apiURL + "/user/login"}
 
 }
