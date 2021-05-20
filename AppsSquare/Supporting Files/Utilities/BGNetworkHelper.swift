@@ -43,18 +43,15 @@ class BGNetworkHelper {
                 return true
             case BGConstants.created?:
                 return true
-            case BGConstants.unauthenticated?:
-                BGAlertPresenter.displayAlert(title: "", message:"",doneBtn:"",forController:controller)
-                return false
             case BGConstants.unprocessableEntity?:
                 var message = "please check \n"
-                if let email = json["errors"]["email"].arrayValue.first {
+                if let email = json["data"]["email"].arrayValue.first {
                     message.append(email.stringValue + "\n")
                 }
-                if let password = json["errors"]["password"].arrayValue.first {
+                if let password = json["data"]["password"].arrayValue.first {
                     message.append(password.stringValue + "\n")
                 }
-                if let phone = json["errors"]["phone.number"].arrayValue.first {
+                if let phone = json["data"]["phone.number"].arrayValue.first {
                     message.append(phone.stringValue + "\n")
                 }
                 BGAlertPresenter.displayAlert(title: json["message"].stringValue, message:message,doneBtn:"done",forController:controller)
@@ -75,12 +72,11 @@ class BGNetworkHelper {
                     message.append(phone.stringValue + "\n")
                 }
                 BGAlertPresenter.displayAlert(title: json["message"].stringValue, message:message,doneBtn:"done",forController:controller)
-            case BGConstants.notAcceptable?:
+            case BGConstants.unauthenticated?:
                 var message = ""
                 if let newMessage = json["Status"]["Description"].string { message = newMessage}
                 if let newMessage = json["message"].string { message = newMessage}
                 BGAlertPresenter.displayAlert(title: message, message:"",doneBtn:"done",forController:controller,completion: {
-                    
                 })
                 
             default:
