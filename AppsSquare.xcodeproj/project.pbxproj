@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D412A40B2656605F00855BF6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412A40A2656605F00855BF6 /* UserModel.swift */; };
 		D4BAC5642654FA0500CF6792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5632654FA0500CF6792 /* AppDelegate.swift */; };
 		D4BAC5662654FA0500CF6792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5652654FA0500CF6792 /* SceneDelegate.swift */; };
 		D4BAC5682654FA0500CF6792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAC5672654FA0500CF6792 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		594177B45E5669CAF6606A22 /* Pods-AppsSquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsSquare.debug.xcconfig"; path = "Target Support Files/Pods-AppsSquare/Pods-AppsSquare.debug.xcconfig"; sourceTree = "<group>"; };
 		B7564B813E95E4C4BA592EBA /* Pods-AppsSquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsSquare.release.xcconfig"; path = "Target Support Files/Pods-AppsSquare/Pods-AppsSquare.release.xcconfig"; sourceTree = "<group>"; };
 		C7FA3009CD9F7D4CF4E98A5E /* Pods_AppsSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppsSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D412A40A2656605F00855BF6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D4BAC5602654FA0500CF6792 /* AppsSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAC5632654FA0500CF6792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4BAC5652654FA0500CF6792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 				594177B45E5669CAF6606A22 /* Pods-AppsSquare.debug.xcconfig */,
 				B7564B813E95E4C4BA592EBA /* Pods-AppsSquare.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,30 @@
 				C7FA3009CD9F7D4CF4E98A5E /* Pods_AppsSquare.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D412A4072656603300855BF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC57A2655010B00CF6792 /* ViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D412A4092656604200855BF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAC579265500DF00CF6792 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D412A40D2656606400855BF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D412A40A2656605F00855BF6 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D4BAC5572654FA0500CF6792 = {
@@ -113,9 +138,10 @@
 			children = (
 				D4BAC5632654FA0500CF6792 /* AppDelegate.swift */,
 				D4BAC5652654FA0500CF6792 /* SceneDelegate.swift */,
+				D412A40D2656606400855BF6 /* Model */,
 				D4BAC57B2655021F00CF6792 /* Supporting Files */,
-				D4BAC57A2655010B00CF6792 /* View */,
-				D4BAC579265500DF00CF6792 /* Storyboard */,
+				D412A4072656603300855BF6 /* Controller */,
+				D412A4092656604200855BF6 /* View */,
 				D4BAC56C2654FA0700CF6792 /* Assets.xcassets */,
 				D4BAC5712654FA0700CF6792 /* Info.plist */,
 			);
@@ -131,12 +157,12 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		D4BAC57A2655010B00CF6792 /* View */ = {
+		D4BAC57A2655010B00CF6792 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				D4BAC5672654FA0500CF6792 /* ViewController.swift */,
 			);
-			path = View;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		D4BAC57B2655021F00CF6792 /* Supporting Files */ = {
@@ -315,6 +341,7 @@
 				D4BAC5C42655022000CF6792 /* BGImageView.swift in Sources */,
 				D4BAC5FE2655022000CF6792 /* BGEndpoints.swift in Sources */,
 				D4BAC5C32655022000CF6792 /* BGGradientView.swift in Sources */,
+				D412A40B2656605F00855BF6 /* UserModel.swift in Sources */,
 				D4BAC5C62655022000CF6792 /* BGTextField.swift in Sources */,
 				D4BAC5E12655022000CF6792 /* BGNetworkHelper.swift in Sources */,
 				D4BAC5C52655022000CF6792 /* BGView.swift in Sources */,
